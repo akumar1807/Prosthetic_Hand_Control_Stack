@@ -1,1 +1,1 @@
-# Underactuated Prosthetic Hand Control Stack
+Added branch for Prototype 1
