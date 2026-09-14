@@ -1,0 +1,10 @@
+#YAML File for parameters in idx_thumb_pose_udp_code.py
+
+hand_tracking_thresholds:
+  close:
+    distance_max: 20
+  open:
+    distance_min: 5
+    angle_min: 0.5
+
+esp32_ip: 192.168.0.107

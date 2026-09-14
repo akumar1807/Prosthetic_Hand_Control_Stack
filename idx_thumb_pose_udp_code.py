@@ -30,7 +30,8 @@ except Exception as e:
     OPEN_ANGLE_MIN = 40
 
 # Replace with the IP address your ESP32 gets from your router
-ESP32_IP = "192.168.0.121" 
+# ESP32_IP = "192.168.0.121" 
+ESP32_IP = config.get('esp32_ip', '192.168.0.107')
 UDP_PORT = 4210
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
